@@ -9,7 +9,15 @@ Template character picture:
 In the folder (character_picture), it contains all capital letters of the English alphabet and numbers from 0 to 9.
 
 The overall task can be summarized as follows:
+
+
 **First, read the image and convert it into a binary image based on a threshold value.
+
+
 **Perform some morphological transformations like filling, eroding, dilating, and filtering using a median filter.
+
+
 **Find the region of interest using the regionprops function and some threshold values.
+
+
 **Finally, find the characters by matching them with the template characters.
